@@ -4,7 +4,7 @@ ion-img {
     
 }
 
-.container{
+ion-content{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -16,6 +16,10 @@ ion-img {
     width: 100vw;
     background-image: url('/assets/flaFundo.jpg');
     font-size: 20px;
+}
+
+ion-header{
+    text-align: center;
 }
 h1{
     color: rgb(255, 255, 255);

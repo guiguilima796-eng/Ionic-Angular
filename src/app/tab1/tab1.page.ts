@@ -65,3 +65,12 @@ export class Tab1Page implements OnInit, OnDestroy {
     }, 100); // Atualiza a barra a cada 100ms
   }
 }
+// ngOnInit(): Inicia o temporizador assim que o componente é carregado.
+
+// iniciarTemporizador(): Usa setInterval para chamar atualizarImagem() a cada 3 segundos (tempo definido por tempoTrocaImagem). O temporizador também é usado para atualizar a barra de progresso.
+
+// atualizarImagem(): Troca a imagem com base no índice do array arrayImgs. Quando chega na última imagem, ele volta à primeira.
+
+// trocarImagem(): Função chamada ao clicar no botão para trocar a imagem manualmente.
+
+// atualizarBarraProgresso(): Atualiza a barra de progresso que reflete o tempo restante até a próxima troca de imagem. Ela é resetada toda vez que a troca acontece.
