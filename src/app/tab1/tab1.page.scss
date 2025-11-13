@@ -4,7 +4,7 @@ ion-img {
     
 }
 
-ion-content{
+.container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -18,8 +18,10 @@ ion-content{
     font-size: 20px;
 }
 
-ion-header{
+ion-title{
     text-align: center;
+    background-color: red;
+    color: chartreuse;
 }
 h1{
     color: rgb(255, 255, 255);
@@ -29,6 +31,10 @@ h1{
 }
 p{
     color: rgb(255, 255, 255);
+}
+ion-card{
+    justify-content: center;
+    align-items: center;
 }
 .row{
     background: linear-gradient(0.25turn, #c70000, #000000);
