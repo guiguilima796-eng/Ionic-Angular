@@ -1,7 +1,0 @@
-{
-  "name": "templatePDM",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular-standalone"
-}

@@ -1,12 +1,15 @@
 ion-item {
   --padding-start: 0;
+  background-color: #86da56;
 }
 /* home.page.scss ou o arquivo de estilo do seu componente */
 
 ion-header {
-  --background: #333; /* Cor de fundo escura */
-  --color: white; /* Cor do texto */
+  --background: #e40101; /* Cor de fundo escura */
+  --color: rgb(185, 7, 7); /* Cor do texto */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve no cabeçalho */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 ion-toolbar {
@@ -14,12 +17,14 @@ ion-toolbar {
 }
 
 ion-title {
+  background-color: #86da56;
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 1px;
 }
 
 ion-card {
+  background-color: #86da56;
   border-radius: 16px; /* Cantos arredondados */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
   margin-top: 16px; /* Espaço superior */
@@ -31,20 +36,23 @@ ion-card-header {
 }
 
 ion-card-title {
+  background-color: #86da56;
   font-size: 22px;
   font-weight: bold;
   color: #333;
 }
 
 ion-card-subtitle {
+  background-color: #86da56;
   font-size: 16px;
   color: #777;
 }
 
 ion-card-content {
-  background-color: #fff;
+  background-color: #74c8d3;
   border-radius: 0 0 16px 16px;
   padding: 16px;
+  color: #1d1d1d;
 }
 
 ion-list {
