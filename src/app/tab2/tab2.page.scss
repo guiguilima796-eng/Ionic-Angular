@@ -1,111 +1,51 @@
-ion-item {
-  --padding-start: 0;
-  background-color: #86da56;
+ion-header{
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
 }
-/* home.page.scss ou o arquivo de estilo do seu componente */
-
-ion-header {
-  --background: #e40101; /* Cor de fundo escura */
-  --color: rgb(185, 7, 7); /* Cor do texto */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve no cabeçalho */
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-
-ion-toolbar {
-  background-color: #1d1d1d; /* Cor de fundo mais escura para o toolbar */
-}
-
-ion-title {
-  background-color: #86da56;
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-ion-card {
-  background-color: #86da56;
-  border-radius: 16px; /* Cantos arredondados */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  margin-top: 16px; /* Espaço superior */
-}
-
-ion-card-header {
-  background-color: #f1f1f1; /* Cor de fundo mais clara para o header do card */
-  border-radius: 16px 16px 0 0;
-}
-
-ion-card-title {
-  background-color: #86da56;
-  font-size: 22px;
-  font-weight: bold;
-  color: #333;
-}
-
-ion-card-subtitle {
-  background-color: #86da56;
-  font-size: 16px;
-  color: #777;
-}
-
-ion-card-content {
-  background-color: #74c8d3;
-  border-radius: 0 0 16px 16px;
-  padding: 16px;
-  color: #1d1d1d;
-}
-
-ion-list {
-  margin: 0;
-}
-
-ion-item {
-  padding: 12px 16px;
-  border-bottom: 1px solid #ddd;
-  font-size: 18px;
-}
-
-ion-item:last-child {
-  border-bottom: none; /* Remove a borda inferior do último item */
-}
-
-ion-thumbnail {
-  border-radius: 8px;
-  margin-right: 16px;
-}
-
-ion-thumbnail img {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-}
-
-ion-label {
-  font-size: 18px;
-  color: #333;
-  font-weight: 500;
-}
-
-/* Hover Effects */
-ion-item:hover {
-  background-color: #f4f4f4;
-}
-
-ion-card:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
-}
-
-ion-content{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+ion-title h1{
+    color: darkblue;
+    font-size: 24px;
     text-align: center;
-    background-color: red;
-    height: 100vh;
-    width: 100vw;
-    background-image: url('/assets/flaFundo.jpg');
+    background-color: lightgreen;
+}
+ion-toolbar{
+    background-color: lightgray;
+    margin: 10px ;
+}
+ion-content{
+    background-color: rgb(231, 231, 75);
+    margin: 10px ;
+    padding: 50px;
+    border-radius: 10px;
+}
+ion-card{
+    background-color: rgb(241, 228, 33);
+    margin: 30px ;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+ion-card-header{
+    color: darkred;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+img{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+}
+
+ion-card-content{
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    background-color: rgb(176, 235, 67);
+    border-radius: 15px;
+    font-size: larger;
+    padding: 15px;
 }
